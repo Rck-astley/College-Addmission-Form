@@ -1,0 +1,66 @@
+/* Reset default spacing */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Center the form */
+form {
+    width: 500px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Fieldset styling */
+fieldset {
+    border: none;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+}
+
+/* Inputs, select, textarea */
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+}
+
+/* Textarea size */
+textarea {
+    height: 70px;
+}
+
+/* Radio & checkbox spacing */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    margin-top: 15px;
+    padding: 8px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
